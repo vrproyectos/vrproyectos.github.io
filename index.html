@@ -8,18 +8,21 @@
         
         
 <style> body { 
-    font-family:sans-serif;   /*font-family: Arial, sans-serif; */
-    margin: 0; 
-    padding: 0; 
     background-image: url('imagenes/fondo3.png');
     background-size:40%;
-    background-position: right;
     background-repeat: no-repeat;
+    text-align: center;
+    font-family:sans-serif;   /*font-family: Arial, sans-serif; */
+    /*margin: 0; 
+    padding: 0; */
+ 
+    /*background-position: right;
+    background-repeat: no-repeat;*/
 
 }
 
  /*768*/
- @media screen and (max-width: 768px) { 
+ /*@media screen and (max-width: 768px) { 
     header {
         flex-direction: column;
     }
@@ -30,7 +33,9 @@
 
     /*.logo {
         margin-bottom: 1rem;*/
-    }
+    
+
+
 
 
 
@@ -39,11 +44,11 @@
             padding: 0px;
             width: 800px;
             height: 800px;
-            margin-right: 0rem;
+            margin-left: 50rem;
         }
 
 
-
+/*
 header {
         display: flex;
         align-items: center;
@@ -89,9 +94,40 @@ header {
        margin-right: 5rem;
     }
 
-
+*/
   
+header {
+        text-align: left;
+    }
 
+    .logo {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+       /* background-image: url('imagenes\logo_v8.jpg');*/
+        background-size: cover;
+        
+        margin-right: 10px;
+       /* vertical-align: middle;*/
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ccc;
+        color: #333;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        background-color: #999;
+    }
 
 
 
@@ -114,7 +150,9 @@ header {
             <tbody>
             <tr>
             <td>
-                <img src="imagenes\logo_v8.jpg" alt="Logo de la Empresa" class="logo">
+               
+               <img src="imagenes\logo_v8.jpg" alt="Logo de la Empresa" class="logo">
+            
             </td>
             <td>
                 <h1>Mastranto Harmony & Azulado</h1>
@@ -122,7 +160,8 @@ header {
             </tr>
             </tbody>
             </table>
-
+    
+       
 
     </div>
     <nav>
@@ -148,7 +187,7 @@ header {
     
 -->
 
-
+<!--   comentario  -->
 
 <table >
     <tbody>
