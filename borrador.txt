@@ -18,11 +18,27 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     font-family:sans-serif;   /*font-family: Arial, sans-serif; */
-    
+    /*margin: 0; 
+    padding: 0; */
+ 
+    /*background-position: right;
+    background-repeat: no-repeat;*/
 
 }
 
- 
+ /*768*/
+ /*@media screen and (max-width: 768px) { 
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    /*.logo {
+        margin-bottom: 1rem;*/
+    
 
         .content {
         width: 90%;
@@ -30,6 +46,64 @@ body {
         padding: 20px;
     }
 
+
+/*
+.content {
+            text-align: left;
+            padding: 0px;
+            width: 800px;
+            height: 800px;
+            margin-left: 50rem;
+        }*/
+
+
+/*
+header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #1db184;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem 1rem;
+        background-color: #12836a;
+        border-radius: 5px;
+    }
+
+    nav a:hover {
+        background-color: #12836a;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-right: 1rem;
+        text-align: left;
+    }
+
+    .fondo1 {
+        width: 800px;
+        height: 800px;
+       margin-left: 8rem;
+    }
+
+    .fondo2 {
+        width: 800px;
+        height: 800px;
+       margin-right: 5rem;
+    }
+
+*/
 } 
 header {
         text-align: left;
@@ -43,7 +117,7 @@ header {
        /* background-size: cover;*/
         
         margin-right: 10px;
-      
+       /* vertical-align: middle;*/
     }
 
     nav {
@@ -106,6 +180,23 @@ header {
     </nav>
 </header>
 
+<!-- Esto es un comentario 
+<table >
+    <tbody>
+    <tr>
+    <td>
+        <img src="imagenes\fondo1.png" class="fondo1">
+    </td>
+    <td>
+        <img src="imagenes\fondo2.png" class="fondo2">
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    
+-->
+
+<!--   comentario  -->
 
 <table >
     <tbody>
